@@ -15,6 +15,7 @@
         if (isPrime.answers[value] != null) {
             return isPrime.answers[value];
         }
+        
         var prime = value != 1; // 1 can never be prime
 
 
