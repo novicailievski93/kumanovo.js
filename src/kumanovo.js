@@ -22,7 +22,7 @@
 
 
 
-        var limit = Math.sqrt(value) + 1 // number is prime if no divisor is found in this limit
+        var limit = Math.sqrt(value) + 3 // number is prime if no divisor is found in this limit
         for (var i = 2; i < limit; i++) {
 
             if (value % i == 0) {
